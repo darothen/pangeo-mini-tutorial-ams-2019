@@ -7,14 +7,13 @@ dependencies:
   - numpy
   - scipy
   - pandas
-  - xarray
+  - xarray=0.11
   - matplotlib
   - dask
   - distributed
   - gcsfs
   - intake::intake
   - intake::intake-xarray
-  - s3fs
   - scikit-image
   - scikit-learn
   - dask-ml
@@ -23,11 +22,8 @@ dependencies:
   - pyviz/label/earthsim::panel
   - geoviews
   - hvplot
-  - rasterio
-  - geoviews
   - datashader
   - netcdf4
-  - zarr
   - numcodecs
   - python-blosc
   - lz4
@@ -40,5 +36,4 @@ dependencies:
   - pip:
     - graphviz
     - git+https://github.com/xgcm/xgcm.git
-    - git+https://github.com/pydata/xarray.git
     - git+https://github.com/zarr-developers/zarr.git
